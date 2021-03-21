@@ -3,7 +3,7 @@ import env from "react-dotenv";
 
 export const authEndpoint = "https://accounts.spotify.com/authorize";
 const clientId = `${env.CLIENT_ID}`;
-const redirectUri = "http://localhost:3001/";
+const redirectUri = "https://spotify-by-abhijit.netlify.app/";
 const scopes = [
   'ugc-image-upload',
   'user-read-playback-state',
